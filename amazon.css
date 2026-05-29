@@ -1,0 +1,709 @@
+.header{
+    display: flex;
+    background-color:rgb(2, 8, 30);
+    gap: 85px;
+    height: 60px;
+}
+
+.header img:nth-child(2){
+    position: relative;
+    left: 90px;
+    top: 8px;
+}
+.header p{
+    color: white;
+    position: relative;
+    
+}
+
+.header p:last-child{
+    position: relative;
+    left: 200px;
+}
+
+
+.header .search-box input{
+    position: relative;
+    bottom: 8px;
+    left: 95px;
+    width: 690px;
+    height: 40px;
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(35, 35, 60);
+    height: 40px;
+}
+
+.nav button{
+    background-color: rgb(35, 35, 60);
+    
+}
+
+.nav p{
+    color: white;
+    position: relative;
+    bottom: 10px;
+}
+
+.nav a{
+    color:rgb(247, 249, 249);
+    text-decoration:none;
+}
+
+.frstSection{
+    display: flex;
+}
+
+.pics{
+    display:flex;
+}
+
+.smallPics{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 45px;
+    left: 15px;
+    gap: 12px;
+}
+
+.frstSmallPic{
+    width: 40px;
+    height: 40px;
+    border: 1px #0f1111 solid;
+    border-radius: 15px;
+}
+.frstSmallPic :hover{
+    border: 1px solid rgb(6, 6, 158);
+}
+
+.secondSmallPic{
+     width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.thirdSmallPic{
+     width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.productPicContainer{
+    position: relative;
+    top: 53px;
+    right: 42px;
+    height: 1150px;
+}
+
+.productPic{
+    position:sticky;
+    top: 100px;
+    padding: 60px;
+
+}
+
+
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    top: 60px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    height: 405px;
+    width: 700px;
+    right: 30px;
+}
+
+.p1 hr{
+    width: 100%;
+}
+
+.p1 h1{
+    font-weight: 400;
+}
+
+.prime{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    right: 25px;
+    height: 130px;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 22px;
+    padding:16px;
+    gap: 0;
+}
+.prime h5{
+    position: relative;
+    right: 4px;
+    margin: 5px;
+}
+
+
+
+.prime h5:nth-child(3){
+    position: relative;
+    top: 0px;
+    color: rgb(7, 7, 151);
+}
+
+.prime h5:nth-child(3):hover{
+    text-decoration: underline;
+    color: rgb(254, 75, 4);
+}
+
+.priceMid{
+    position: absolute;
+    top: 420px;
+    left: 603px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    
+}
+
+.coloredScentence{
+    display: inline-flex;
+    align-items: baseline;
+    
+    background-color: rgb(184, 240, 200);
+    background-size: 25px 25px;
+}
+
+.scentence{
+    display: flex;
+}
+.priceMid .price1 h2,.priceMid .price1 h6{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    font-weight: 540;
+}
+
+.priceMid .lowerWriting{
+    color: rgb(5, 5, 237);
+}
+
+.priceMid .lowerWriting:hover{
+    color: #0f1111;
+    text-decoration: underline;
+}
+
+.scentnce1{
+    display: flex;
+}
+
+.priceMid .coloredScentence h2,.priceMid .coloredScentence h3,.priceMid .coloredScentence h6{
+    font-weight: 540;
+    margin: 0;
+}
+
+.price2{
+    position: relative;
+    bottom: 5px;
+}
+
+.priceMid .coloredScentence .price2 h2,.priceMid .coloredScentence .price2 h6{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    
+}
+
+
+.scentnce1 h3{
+    margin: 0;
+    font-weight: 540;
+}
+
+
+
+.priceMid .scentence2 {
+    position: relative;
+    top: 5px;
+    display: inline-flex;
+    align-items: baseline;
+    width: 710px;
+    height: 250;
+    gap: 5px;
+}
+
+.priceMid .scentence2 h4{
+    margin: 0;
+}
+
+.priceMid .scentence2p1{
+    display: flex;
+    gap: 3px;
+}
+
+
+.priceMid .scentence2 .scentence2p1 h4:nth-child(2){   
+       font-weight: 400;
+}
+
+.priceMid .scentence2 .scentence2p1 h4:nth-child(3){   
+       font-weight: 600;
+}
+
+
+
+.priceMid .scentence2p2 h4{
+    font-weight: 460;
+}
+
+.priceMid .lowerWriting1{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+}
+
+
+.priceMid .lowerWriting1 h4:nth-child(1){
+    font-weight: 460;
+}
+
+.priceMid .lowerWriting1 .writing h4{
+    color: rgb(5, 5, 237);
+    font-weight: 600;
+}
+
+.priceMid .lowerWriting .writing h4:hover{
+    color: #0f1111;
+    text-decoration: underline;
+}
+
+.priceMid .smallTitle1 h5{
+    position: relative;
+    bottom: 38px;
+    color: rgb(5, 5, 237);
+    font-weight: 460;
+    margin: 0;
+}
+
+.priceMid .smallTitle1 h5:hover{
+    color: #0f1111;
+    text-decoration: underline;
+}
+
+.priceMid .scentence3{
+    display: inline-flex;
+    align-items: baseline;
+    gap: 7px;
+    position: relative;
+    bottom: 35px;
+}
+
+.priceMid .scentence3 .coloredScentence{
+    background-color: rgb(9, 180, 9);
+    
+    
+}
+
+.priceMid .scentence3 .coloredScentence h4{
+    margin: 0;
+    font-weight: 460;
+}
+
+.priceMid .scentence3 .scentence3p2 h4{
+    margin: 0;
+    font-weight: 460;
+}
+
+.priceMid .scentence3p3 h4{
+    color: rgb(5, 5, 237);
+    font-weight: 580;
+    margin: 0;
+}
+
+.priceMid .scentence3p3 h4:hover{
+     color: #0f1111;
+    text-decoration: underline;
+}
+
+
+.priceMid .scentence4{
+    position: relative;
+    bottom: 28px;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 7px;
+}
+
+.priceMid .scentence4 .coloredScentence{
+    background-color: rgb(9, 180, 9);
+    
+    
+}
+
+.priceMid .scentence4 .coloredScentence h4{
+    margin: 0;
+    font-weight: 460;
+}
+
+.priceMid .scentence4 .scentence4p2 h4{
+    margin: 0;
+    font-weight: 460;
+}
+
+.priceMid .scentence4p3 h4{
+    color: rgb(5, 5, 237);
+    font-weight: 580;
+    margin: 0;
+}
+
+.priceMid .scentence4p3 h4:hover{
+     color: #0f1111;
+    text-decoration: underline;
+}
+
+.priceMid .scentence5{
+    position: relative;
+    bottom: 28px;
+}
+
+.priceMid .scentence5 h4{
+    margin: 0;
+    font-weight: 460;
+}
+
+.priceMid table {
+    border-spacing: 20px;
+    position: relative;
+    right: 30px;
+}
+
+.priceMid table  .tableTitle{
+    font-weight: 560;
+}
+
+.priceMid hr{
+    position: relative;
+    right: 35px;
+    
+    width: 650px;
+    background-color: gray;
+}
+
+.priceMid .aboutThisItem h4{
+    width: 590px;
+    font-weight: 460;
+}
+
+.buyNew{
+    display: grid;
+    grid-template-rows: 6fr 1fr 1fr;
+    position: absolute;
+    top: 350px;
+    right: 25px;
+   
+    height: 1050px;
+    width: 215px;
+    padding: 8px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+
+}
+
+.buyNew .buyNew1{
+    padding: 8px;
+    gap: 17px;
+    border: 1px solid black;
+    border-bottom: none;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+
+.buyNew .price1{
+    display: inline-flex;
+    align-items: baseline;
+    position: relative;
+    top: 12px;
+    
+}
+
+.buyNew .price1 h2,
+.buyNew .price1 h6{
+    margin: 0;
+    font-weight: 460;
+}
+
+.buyNew .priceAndHistory{
+    display: inline-flex;
+    align-items: baseline;
+    
+}
+
+.buyNew .priceAndHistory .lowerWriting{
+    color: rgb(5, 5, 237);
+    font-weight: 560;
+    position: relative;
+    top: 12px;
+    left: 15px;
+}
+
+.buyNew .buyNew1 h5{
+    margin: 0;
+}
+
+.buyNew .smallP1{
+    position: relative;
+    top: 18px;
+}
+
+.buyNew .smallP1 h4{
+    font-weight: 460;
+}
+
+.buyNew .smallP2{
+    position: relative;
+    top: 12px;
+}
+
+.buyNew .smallP2 h4{
+    margin: 0;
+    font-weight: 460;
+}
+
+
+.buyNew .inStock{
+    position: relative;
+    top: 25px;
+}
+
+.buyNew .inStock h2{
+    color: green;
+    margin: 0;
+    font-weight: 460;
+}
+
+.buyNew .quantity{
+    position: relative;
+    top: 36px;
+    border:1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.buyNew .quantity h3{
+    margin: 0;
+    font-weight: 400;
+}
+
+.buyNew .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    border:1px solid black;
+    border-radius: 22px;
+    padding: 8px;
+    background-color: rgb(255, 255, 0);
+}
+
+.buyNew .cart h3{
+     margin: 0;
+    font-weight: 400;
+}
+
+
+.buyNew .buyNow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 75px;
+    border:1px solid black;
+    border-radius: 22px;
+    padding: 8px;
+    background-color: rgb(255, 145, 0);
+}
+
+.buyNew .buyNow h3{
+     margin: 0;
+    font-weight: 400;
+}
+
+.buyNew .skip1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 75px;
+}
+
+.buyNew .skip1 h3{
+    margin: 0;
+}
+
+.buyNew .protection{
+    position: relative;
+    top: 95px;
+}
+
+.buyNew .protection h4{
+    margin: 0;
+    font-weight: 560;
+}
+
+.buyNew .checkBox1{
+    position: relative;
+    top: 75px;
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.buyNew input [type="checkBox"] h4{
+    margin: 0;
+    font-weight: 460px;
+}
+
+.buyNew .skip2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 75px;
+}
+
+
+.buyNew .skip2 h3{
+    margin: 0;
+}
+
+ .buyNew .buyNew2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 8px; 
+    background-color: rgb(213, 209, 209);
+    
+}
+
+.buyNew .buyNew2 h4{
+    margin: 0;
+}
+
+.buyNew .buyNew2 input[type="checkbox"]{
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+
+.buyNew .buyNew3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    padding: 8px; 
+    background-color: rgb(213, 209, 209);
+    
+}
+
+.buyNew .buyNew3 h4{
+    margin: 0;
+}
+
+.buyNew .buyNew3 input[type="checkbox"]{
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.scndSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.scndSection hr{
+    width: 1230px;
+    background-color: gray;
+    position:absolute;
+    top:1410px;
+    left: 30px;
+}
+
+.scndSection .boughtTogther{
+    position: absolute;
+    top: 1430px;
+    left: 30px;
+}
+
+.scndSection .boughtTogther .frstProduct{
+    background-color: rgb(203, 200, 200);
+    height: 125px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scndSection .boughtTogther  h5{
+    position: relative;
+    top: 20px;
+    margin: 0;
+    font-weight: 460;
+    width: 200px;
+}
+
+.scndSection .boughtTogther h3{
+    position: absolute;
+    bottom: 100px;
+    left: 250px;
+}
+
+
+.section3 hr{
+    width: 1475px;
+    background-color: gray;
+    position:absolute;
+    top:1710px;
+    left: 30px;
+}
+
+.section3 h2{
+    position: absolute;
+    top: 1725px;
+    left: 30px;
+    margin: 0;
+    font-weight: 560;
+}
+
+.section3 img{
+    position: absolute;
+    top: 1755px;
+    left: 100px;
+}
+
+.section3 h5{
+    margin: 0;
+    font-weight: 460;
+    position: absolute;
+    top: 1925px;
+    left: 110px;
+    width: 180px;
+}
+
+.section3 h3{
+    position: absolute;
+    top: 1800px;
+    left: 290px;
+}
