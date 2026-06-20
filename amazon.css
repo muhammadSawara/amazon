@@ -4,13 +4,22 @@
     gap: 40px;
     height: 60px;
     width: 1580px;
-    
+    text-align: center;
+    justify-content: center;
+}
+
+
+.header img:first-child{
+    position: relative;
+    right: 180px;
 }
 
 .header p:nth-child(2){
     color: white;
-    width: 150px;
-    text-align: center;
+    position: relative;
+    right: 90px;
+    
+    
     
 }
 
@@ -31,8 +40,8 @@
 .header img:nth-child(4){
     border-radius: 22px;
     position: relative;
-    left: 30px;
-    top: 20px;
+    top: 15px;
+    
 }
 
 
@@ -40,14 +49,16 @@
 .header p:nth-child(5){
     color: white;
     position: relative;
-    left: 100px;
+    left: 40px;
+   
 }
 
 .header img:nth-child(6){
     border-radius: 22px;
     position: relative;
-    left: 170px;
-    top: 5px;
+    top: 7px;
+    left: 100px;
+    
 }
 .nav{
     display: flex;
