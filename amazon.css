@@ -61,14 +61,24 @@
 }
 .nav{
     display: flex;
-    background-color: rgb(35, 35, 60);
+    background-color:  rgb(36, 36, 66);
     height: 40px;
     width: 1580px;
 }
+.nav img:first-child{
+    height=39px; 
+    width=80px;
+}
 
+
+.nav img:nth-child(2){
+    height: 39px;
+    width: 140px;
+}
 .nav button{
-    background-color: rgb(35, 35, 60);
-    
+    background-color: rgb(36, 36, 66);
+        color: white;
+    width: 110px;
 }
 
 .nav p{
@@ -745,3 +755,4 @@
    top: 80px;
    left: 230px;
 }
+
